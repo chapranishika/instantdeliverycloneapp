@@ -15,6 +15,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY app/ ./app/
+COPY zepto.db .
 
 # Create the data dir — ML artifacts are mounted via Docker volume in local dev
 # and are COPY'd in below for production builds where artifacts exist
