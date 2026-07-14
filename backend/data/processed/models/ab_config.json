@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "control": { "weight": 0.33, "description": "Popularity-only baseline" },
+    "treatment_a": { "weight": 0.33, "description": "Collaborative filtering only" },
+    "treatment_b": { "weight": 0.34, "description": "Hybrid LightGBM LambdaMART ranker" }
+  }
+}

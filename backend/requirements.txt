@@ -1,0 +1,37 @@
+# ── Web framework ─────────────────────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+httpx==0.27.0
+
+# ── Database ──────────────────────────────────────────────────────────────────
+sqlalchemy==2.0.30
+asyncpg==0.29.0          # async PostgreSQL driver
+alembic==1.13.1          # DB migrations
+redis==5.0.4             # async Redis client
+
+# ── ML core ───────────────────────────────────────────────────────────────────
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.0
+scikit-learn==1.5.0
+faiss-cpu==1.8.0
+lightgbm==4.3.0
+
+# ── LLM ───────────────────────────────────────────────────────────────────────
+anthropic==0.28.0
+
+# ── Auth / security ───────────────────────────────────────────────────────────
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+pydantic[email]==2.7.1
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+tqdm==4.66.4
+celery==5.4.0
+
+# ── Optional (upgrade paths, not required to run) ─────────────────────────────
+# implicit==0.7.2          # ALS CF — swap in for TruncatedSVD (see 02_collaborative_filtering.py)
+# sentence-transformers==3.0.1  # richer embeddings (see 03_content_embeddings.py)
+# pyarrow==16.1.0          # parquet support for Instacart data loader
