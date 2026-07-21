@@ -2,7 +2,7 @@
 
 > A production-grade quick-commerce grocery app with **real Zepto CDN product images**, a **3-layer ML recommendation engine**, and a complete MVC architecture — built with React + FastAPI + Python.
 
-[![CI/CD](https://github.com/yourusername/zepto-clone/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/zepto-clone/actions)
+[![CI/CD](https://github.com/chapranishika/instantdeliverycloneapp/actions/workflows/ci.yml/badge.svg)](https://github.com/chapranishika/instantdeliverycloneapp/actions)
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.111-green.svg)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-18-61dafb.svg)](https://reactjs.org)
@@ -136,8 +136,8 @@ results reported honestly (one comparison is significant, one is not).
 
 ### 1. Clone
 ```bash
-git clone https://github.com/yourusername/zepto-clone.git
-cd zepto-clone
+git clone https://github.com/chapranishika/instantdeliverycloneapp.git
+cd instantdeliverycloneapp
 ```
 
 ### 2. Frontend
